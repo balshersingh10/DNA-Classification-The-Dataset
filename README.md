@@ -1,4 +1,4 @@
-![DNA-Classification]()
+![DNA-Classification](https://images.unsplash.com/photo-1518152006812-edab29b069ac?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ)
 # Classification of DNA Using Supervised Machine Learning Techniques
 We obtained the DNA dataset from UCI repository and used Jupyter Notebook as the platform for the purpose of coding. Our methodology involves use of classification techniques like Support Vector Machine (SVM), K-Nearest Neighbor (K-NN) and many more.
 ## A. Feature Selection
@@ -26,10 +26,10 @@ The data taken is from **https://archive.ics.uci.edu/ml/machine-learning-databas
 ## D. Taining Data and Testing Data
 80% of above data is training and 20% is testing data.
 ### Then the Class is predicted:
-- + (1)
-- - (0)
+- '+' (1)
+- '-' (0)
 # Result =>
-Accuracy :
+Accuracy on Testing set:
 * Nearest Neighbors - 86.36363636363636 %
 * SVC/SVM model with Linear kernel - 90.90909090909091 %
 * SVC/SVM model with RBF kernel - 90.90909090909091 %
@@ -37,7 +37,7 @@ Accuracy :
 * SVC/SVM model with Polynomial kernel - 90.90909090909091 %
 * Naive Bayes - 90.90909090909091 %
 * AdaBoost - 81.81818181818182 %
-* Neural Net - 95.45454545454546 %
+* Neural Net - 95.45454545454546 % [HIGHEST ACCURACY]
 * Random Forest - 68.18181818181818 %
 * Decision Tree - 86.36363636363636 %
 * Gaussian Process - 95.45454545454546 %
